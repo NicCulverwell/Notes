@@ -1,4 +1,4 @@
-package NOTES;
+package Intro;
 
 // Basic Template of a Java Program
 

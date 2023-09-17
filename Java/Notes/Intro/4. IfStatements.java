@@ -1,4 +1,4 @@
-package NOTES;
+package Intro;
 
 class IfStatements {
     
