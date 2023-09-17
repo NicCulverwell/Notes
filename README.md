@@ -1,2 +1,4 @@
 # Notes
- Notes on how to code
+
+
+ General Documenation on Learning the Basic of Various Languages
