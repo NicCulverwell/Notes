@@ -1,4 +1,4 @@
-package NOTES;
+package Intro;
 
 import javax.swing.*;
 import java.awt.*;
