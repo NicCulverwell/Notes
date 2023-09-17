@@ -1,10 +1,10 @@
-package NOTES;
+package Intro;
 
 public class test {
  
     public static void main(String [] args) {
 
-        System.out.println("Hello WOrld!");
+        System.out.println("My name is Nicholas Culverwell");
 
 
     }
