@@ -13,7 +13,7 @@ class MathClass {
         System.out.println(Math.min(x,y)); // Displays the lower of the two numbers
         System.out.println(Math.abs(y)); // Displays the absoulte value of y
         System.out.println(Math.sqrt(z)); // Displays the Square Root of z'
-        System.out.println(Math.round(x)); // Rounds off a variable to the appropraite side
+        System.out.println(Math.round(x)); // Rounds off a variable to the appropriate side
         System.out.println(Math.floor(x)); // Rounds off a variable to the lower possible rounding
         System.out.println(Math.ceil(x)); // Rounds off a variable to the higher possible rounding
           
