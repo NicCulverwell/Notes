@@ -34,7 +34,7 @@ int main (){
 
     int answer1 = CalculateIntAverage(FirstNum, SecondNum, ThirdNum);
 
-    cout << "The average of these integers is " << CalculateIntAverage << "but let's now try this again with decimals\n";
+    cout << "The average of these integers is " << answer1 << "but let's now try this again with decimals\n";
 
     cout << decimalRequest;
     cin >> FirstDec;

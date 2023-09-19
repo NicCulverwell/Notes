@@ -51,9 +51,6 @@ class SetInterface {
         //      - you dont want to use the compareTo() method in the class that implements the Comparable interface 
         //  - this approach is referred to as [approach by comparator]
 
-
-        
-
     }
-
+    
 }

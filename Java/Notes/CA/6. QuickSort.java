@@ -1,6 +1,6 @@
 package CA;
 
-class QuickSort {
+class QuickSort<E> {
 
     public static void main(String [] args) {
 
