@@ -22,7 +22,7 @@ class Queues {
 
         // - PriorityQueue()                            - creates a default queue with initial capacity 11
         // - PriorityQueue(initialCapacity)             - cretaes a default queue with a specificed initial capacity
-        // - PriorityQuque(Collection)                  - creates a queue from a pre-existing collection
+        // - PriorityQueue(Collection)                  - creates a queue from a pre-existing collection
         // - PriorityQueue(initialCapacity, Comparator) - creates a queue with the specified intial capacity and the comparator
 
 

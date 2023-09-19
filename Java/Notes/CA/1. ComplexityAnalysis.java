@@ -45,7 +45,7 @@ class ComplexityAnalysis {
 //              this is known as asymptotic analysis
 
 //          Asymptotic Analysis:
-//              f(n) = n2 + 100n + log10n + 1000
+//              f(n) = n² + 100n + log10n + 1000
 //              as the value of n increases, the percentage contribution of each individual term becomes less and less important, except for n2 as it exponentially grows
 
 //          Best, Worst and Average Cases:
@@ -56,7 +56,7 @@ class ComplexityAnalysis {
 //              it allows us to definitively that runtime will never be worse than that point
 //              average-case, whilst useful is difficult to accurately calculate as there are various probabilities to take into consideration
 //               worst-case is easy to obtain and thus analysis on the worst-case is often chosen
-//              O(n2) means that n2 is the most dominant term
+//              O(n²) means that n2 is the most dominant term
 
 //          T(n) is not a set time. It is an indication of how the time will scale, as a list grows/shrinks in size [linear, means it will change by a flat interval] etc.
 

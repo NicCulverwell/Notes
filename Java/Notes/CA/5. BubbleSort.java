@@ -30,13 +30,13 @@ class BubbleSort {
         // the passes through the list are repeated until no swaps are needed, which indicates that the list is sorted
         // name comes from how smaller elements 'bubble to the top' 
 
-        int [] list = {10,5,3,2,5,7,1,6,5};
+        int [] list = {5,3,2,5,10,7,1,6,5};
 
-        bubble(list, 9);
+        bubble(list, 9); // 9 indicates how many times the bubble sort will run through the code, more than the maximum number is pointless, and less than the max means that the last few elements wont be sorted
 
         int n = list.length;
 
-        for(int i = 1; i < n; i++) {
+        for(int i = 1; i < n; i++) { // for some reason it ignores index[0]
            System.out.println(list[i]);
         }
 
