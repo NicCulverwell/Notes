@@ -4,30 +4,30 @@ import java.util.*;
 class TestQueue { 
        public static void main(String[] args) { 
 
-              PriorityQueue<String> queue1 = new PriorityQueue<String>(); 
+              PriorityQueue<String> Q1 = new PriorityQueue<String>(); 
 
-              queue1.offer("Oklahoma"); 
-              queue1.offer("Indiana"); 
-              queue1.offer("Georgia"); 
-              queue1.offer("Texas");
+              Q1.offer("Oklahoma"); 
+              Q1.offer("Indiana"); 
+              Q1.offer("Georgia"); 
+              Q1.offer("Texas");
 
               System.out.println("Priority queue using Comparable:"); 
 
-              while (queue1.size() > 0) { 
-                      System.out.print(queue1.remove() + " "); 
+              while (Q1.size() > 0) { 
+                      System.out.print(Q1.remove() + " "); 
                } 
 
-               PriorityQueue<String> queue2 = new PriorityQueue<String>( 4, Collections.reverseOrder());
+               PriorityQueue<String> Q2 = new PriorityQueue<String>( 4, Collections.reverseOrder());
 
-               queue2.offer("Oklahoma"); 
-               queue2.offer("Indiana"); 
-               queue2.offer("Georgia"); 
-               queue2.offer("Texas"); 
+               Q2.offer("Oklahoma"); 
+               Q2.offer("Indiana"); 
+               Q2.offer("Georgia"); 
+               Q2.offer("Texas"); 
 
                System.out.println("\nPriority queue using Comparator:");
                 
-               while (queue2.size() > 0) { 
-                        System.out.print(queue2.remove() + " "); 
+               while (Q2.size() > 0) { 
+                        System.out.print(Q2.remove() + " "); 
                } 
       } 
 } 

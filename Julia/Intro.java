@@ -4,17 +4,13 @@ public class Intro {
     
     public static void main(String [] args) {
 
+        Account Julia = new Account(1000, 51);
 
-        int test = 1;
-        int test2 = test + 1;
+        System.out.println(Julia.GetBalance() + "\n");
 
-        System.out.println(test2);
+        Julia.SetBalance(5000);
 
-        // Account test = new Account(500, 501);
-
-        // test.SetBalance(-400);
-
-        // System.out.println(test.GetBalance());
+        System.out.println(Julia.GetBalance());
 
     }
 

@@ -1,4 +1,4 @@
-package CA;
+package SortingMethods;
 
  class SelectionSort {
     
