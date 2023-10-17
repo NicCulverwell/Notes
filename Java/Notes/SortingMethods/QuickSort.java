@@ -1,6 +1,6 @@
 package SortingMethods;
 
-class QuickSort<E> {
+public class QuickSort<E> {
 
     public static void main(String [] args) {
 

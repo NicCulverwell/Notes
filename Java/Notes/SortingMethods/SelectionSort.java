@@ -1,13 +1,13 @@
 package SortingMethods;
 
- class SelectionSort {
+public class SelectionSort {
     
     public static void main(String [] args) {
 
         // The Selection Sort Algorithm
 
         // Goes through the list, finding the smalles possible number, and placing it at index 0
-        // then goes through the list again, finding the 2nd smalles number, and placing it at index 1
+        // then goes through the list again, finding the 2nd smallest number, and placing it at index 1
         // the number of comparisons is (n-1) for the first iteration, (n-2) for the 2nd iteration etc.
         // d is denoted as the constant time for each comparison, and c is denoted as the total number of other operations in each iteration:
 
