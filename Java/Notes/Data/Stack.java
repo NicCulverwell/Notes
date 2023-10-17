@@ -4,7 +4,7 @@ public class Stack {
     
     public static void main(String [] args) {
 
-        MyStack stack = new MyStack();
+        MyStack<String> stack = new MyStack<>();
 
         stack.push("Tom");
         stack.push("George");
@@ -18,7 +18,7 @@ public class Stack {
 
 }
 
-class MyStack extends java.util.ArrayList {
+class MyStack<E> extends java.util.ArrayList {
 
     public boolean isEmpty() {
         return super.isEmpty();
