@@ -14,7 +14,8 @@ class Queues {
         // - remove()       - retrieves and removes the head of the queue (throws an exception if the the queue is empty)
         // - peek()         - retrieves but does not remove the head of the queue (null if the queue is empty)
         // - element()      - retrieves but does not remove the head of the queue (throws an exception if the the queue is empty)
-
+        // - enqueue()      - adds an element to the end of the queue (function with built in catch statements)
+        // - dequeue()      - removes an element from the front of the queue (function with built in catch statements)
 
         // Priority Queue
         // - elements are assigned priority

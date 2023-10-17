@@ -42,6 +42,10 @@ public class QuickSort<E> {
 	    recQuickSort(list, first, pivotLocation - 1);
 	    recQuickSort(list, pivotLocation + 1, last);
    }
-}	
+}
+
+    private int partition(E[] list, int first, int last) {
+        return 0;
+    }	
 
 }
