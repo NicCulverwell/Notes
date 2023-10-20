@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "julia1",
+            "request": "launch",
+            "mainClass": "julia1",
+            "projectName": "Notes_9f0f2a1e"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueues",
+            "request": "launch",
+            "mainClass": "Data.PriorityQueues",
+            "projectName": "Notes_9f0f2a1e"
+        },
+        {
+            "type": "java",
             "name": "Queue",
             "request": "launch",
             "mainClass": "Data.Queue",

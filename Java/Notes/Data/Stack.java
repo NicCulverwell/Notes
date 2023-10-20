@@ -18,7 +18,7 @@ public class Stack {
 
 }
 
-class MyStack<E> extends java.util.ArrayList {
+class MyStack<E> extends java.util.ArrayList<E> {
 
     public boolean isEmpty() {
         return super.isEmpty();
@@ -39,12 +39,12 @@ class MyStack<E> extends java.util.ArrayList {
         return o;
     }
 
-    public Object push(Object o) {
+    public Object push(E o) {
         add(o);
         return o;
     }
 
-    public int search(Object o) {
+    public int search(E o) {
         return indexOf(o);
     }
 

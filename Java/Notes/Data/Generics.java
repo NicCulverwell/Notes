@@ -2,7 +2,9 @@ package Data;
 
 public class Generics {
     
-    // Make a file explaining Generics
+    // Generics Allow you to create classes and methods that don't have a specified variables
+        // When calling the class, you must indicate which variable you are instantiating
+        // indicated by an <E>
 
         public static void main(String [] args) {
 
@@ -12,11 +14,11 @@ public class Generics {
 
         }
 
-    public static class Print<T> {
+    public static class Print<E> {
 
-        T object;
+        E object;
 
-        public Print(T object) {
+        public Print(E object) {
             this.object = object;
         }
 
