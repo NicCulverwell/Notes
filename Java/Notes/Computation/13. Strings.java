@@ -1,4 +1,4 @@
-package Intro;
+package Computation;
 
 class Strings {
 

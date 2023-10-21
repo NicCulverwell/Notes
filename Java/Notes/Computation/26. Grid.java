@@ -1,4 +1,4 @@
-package Intro;
+package Computation;
 
 import java.awt.*;
 import javax.swing.*;

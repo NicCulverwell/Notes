@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 
-using namespace std;
+using namespace std; // standard import library for c++
 
 int CalculateIntAverage(int num1, int num2, int num3) {
 

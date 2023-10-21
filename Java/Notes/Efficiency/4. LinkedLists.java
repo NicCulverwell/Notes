@@ -1,4 +1,4 @@
-package CA;
+package Efficiency;
 
 class LinkedLists {
     
@@ -62,11 +62,11 @@ class LinkedLists {
 
     class Node<E> {
         E element; // holding the value
-        Node next; // holding a reference to the next node
+        Node <E> next; // holding a reference to the next node
 
         // combination of these two items, make up a single node within the list (making it a List that is linked by a 'next' parameter [linked list])
 
-        public Node(Node n, E e) { // assigning a next parameter is optional
+        public Node(Node <E> n, E e) { // assigning a next parameter is optional
             element = e;
             next = n;
         }

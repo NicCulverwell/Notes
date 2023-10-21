@@ -5,6 +5,8 @@ using namespace std;
 
 int main() {
 
+    // Maths in C++ forms a very similar basis to that of Normal Maths
+
     string example = "Example";
 
     cout << example;
