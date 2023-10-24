@@ -2,7 +2,7 @@ package Data;
 
 import java.util.*;
 
-public class Graphs {
+public class Graph {
 
     public static void main(String [] args) {
 
@@ -90,16 +90,26 @@ public class Graphs {
 
     System.out.println("\n[" + adjacencyMatrix[0][0] + ", " + adjacencyMatrix[0][1] + ", " + adjacencyMatrix[0][2] + ", " + adjacencyMatrix[0][3] + "]");
 
+        // Edges using Adjacency Lists:
+
+        int [][] adjacencyList = {
+            {123},  // reference of a linked list of connections to other indexes in the array
+            {023},
+            {013},
+            {012}
+        };
+
+
         // Edges using Edge Object:
             // create a class capable of storing 2 integers, and call it whenever adding a new edge coordinated to the ArrayList
 
         List<Edge> list = new ArrayList<>();
-        list.add(new Graphs().new Edge(0,1));
-        list.add(new Graphs().new Edge(0,3));
-        list.add(new Graphs().new Edge(0,5));
-        list.add(new Graphs().new Edge(1,0));
-        list.add(new Graphs().new Edge(1,3));
-        list.add(new Graphs().new Edge(2,1));
+        list.add(new Graph().new Edge(0,1));
+        list.add(new Graph().new Edge(0,3));
+        list.add(new Graph().new Edge(0,5));
+        list.add(new Graph().new Edge(1,0));
+        list.add(new Graph().new Edge(1,3));
+        list.add(new Graph().new Edge(2,1));
 
         System.out.println("\n" + list.get(0));
 

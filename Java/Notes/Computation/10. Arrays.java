@@ -37,6 +37,6 @@ class Arrays {
         }
 
         System.out.println(list3[list3.length-1]); // used to print out the last value of an array, very useful when you do not know the length of an array
+        
     }
-
 }

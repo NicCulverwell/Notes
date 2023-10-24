@@ -2,7 +2,7 @@ package Data;
 
 import java.util.*;
 
-public class Queue {
+public class QueuesCustom {
 
     public static void main(String [] args) {
 
@@ -16,6 +16,8 @@ public class Queue {
         // - element()      - retrieves but does not remove the head of the queue (throws an exception if the the queue is empty)
         // - enqueue()      - adds an element to the end of the queue (function with built in catch statements)
         // - dequeue()      - retrieves and removes an element from the front of the queue (function with built in catch statements)
+        // - remove()       - 
+        // - add()          - 
 
 
         MyQueue<String> queue = new MyQueue<>();
