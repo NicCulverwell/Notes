@@ -17,7 +17,7 @@ class Account {
 
     public:
         Account(int ID, int BALANCE) {
-        this->BALANCE = BALANCE;  // takes the variable from the external source (when it is entered in the int main() { and equates it to the private variables stored within this class)
+        this->BALANCE = BALANCE;  // takes the variable from the external source (when it is entered in the int main()  and equates it to the private variables stored within this class)
         this->ID = ID;
         }
 
@@ -28,7 +28,7 @@ class Account {
             // void methods, are defined as methods that do not need to return values
 
             // within the bracket of the method, you define predetermined variables
-            // in the deposit method, the int value is defined, which means whenever the deposit method is called you have to give it some integer
+            // in the deposit method, the "int value" is defined, which means whenever the deposit method is called you have to give it some integer
             // this is used when the method requires something to work with. In the case of deposit, you need to tell the method how much is being deposited
 
         // Basic Methods are Generally divided into 2 categories:
@@ -62,15 +62,15 @@ class Account {
 
 int main() {
 
-    Account Julia(01, 1000);
+    Account test(01, 1000);
 
-    Julia.Deposit(500);
-    cout << "R" << Julia.getBalance() << "\n";
+    test.Deposit(500);
+    cout << "R" << test.getBalance() << "\n";
 
-    Julia.Withdraw(800);
-    cout << "R" << Julia.getBalance() << "\n";
+    test.Withdraw(800);
+    cout << "R" << test.getBalance() << "\n";
 
-    cout << "ID Number: " << Julia.getID() << "\n";
+    cout << "ID Number: " << test.getID() << "\n";
 
     return 0;
 }
