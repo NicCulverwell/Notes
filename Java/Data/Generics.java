@@ -8,7 +8,7 @@ public class Generics {
 
         public static void main(String [] args) {
 
-            Print<Integer> example = new Print<>(52);
+            Print<Integer> example = new Print<>(52); // replacing <E> with a variable of your choice, allows you to vary how you use data structures
 
             example.print();
 

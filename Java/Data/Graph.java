@@ -1,6 +1,7 @@
 package Data;
 
 import java.util.*;
+import java.util.List;
 
 public class Graph {
 
@@ -88,7 +89,7 @@ public class Graph {
             {1,0,1,0} // Pretoria
         };
 
-    System.out.println("\n[" + adjacencyMatrix[0][0] + ", " + adjacencyMatrix[0][1] + ", " + adjacencyMatrix[0][2] + ", " + adjacencyMatrix[0][3] + "]");
+        System.out.println("\n[" + adjacencyMatrix[0][0] + ", " + adjacencyMatrix[0][1] + ", " + adjacencyMatrix[0][2] + ", " + adjacencyMatrix[0][3] + "]");
 
         // Edges using Adjacency Lists:
 

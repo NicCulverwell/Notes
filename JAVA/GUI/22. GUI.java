@@ -1,4 +1,4 @@
-package Computation;
+package GUI;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -61,11 +61,6 @@ class GUI {
 
 
          */
-
-
-
-
-
 
     }
 }

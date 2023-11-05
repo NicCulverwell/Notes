@@ -1,4 +1,4 @@
-package Computation;
+package GUI;
 
 import java.awt.event.*;
 import javax.swing.*;

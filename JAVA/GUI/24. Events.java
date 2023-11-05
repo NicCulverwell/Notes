@@ -1,4 +1,4 @@
-package Computation;
+package GUI;
 
 import javax.swing.*;
 

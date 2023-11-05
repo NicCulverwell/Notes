@@ -1,4 +1,4 @@
-package Efficiency;
+package Data;
 
 class LinkedLists {
     
