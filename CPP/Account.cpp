@@ -1,11 +1,11 @@
 #include <iostream>
-
-using namespace std;
+#include "Account.h"
 
 class Account {
 
     int BALANCE;
     int ID;
+
 
     // All Classes Require a Constructor Method:
         // Named the same as the Class Name (in this case Account)
@@ -16,10 +16,10 @@ class Account {
             // there are no set rules, you can edit and change these as much as you want
 
     public:
-        Account(int ID, int BALANCE) {
-        this->BALANCE = BALANCE;  // takes the variable from the external source (when it is entered in the int main()  and equates it to the private variables stored within this class)
-        this->ID = ID;
-        }
+        Account::Account(int ID, int BALANCE){
+            this->BALANCE = BALANCE;
+            this->ID = ID;
+        };
 
         // Secondary Methods:
         // Methods are split into various parts
@@ -41,36 +41,21 @@ class Account {
             // It does not change any data, nor does it create any new data
 
 
-        void Deposit(int value) {
+        void Account::Deposit(int value) {
             BALANCE += value;
         }
 
-        void Withdraw(int withdraw) {
+        void Account::Withdraw(int withdraw) {
             BALANCE -= withdraw;
         }
 
 
-        int getBalance() {
+        int Account::getBalance() {
             return BALANCE;
         }
 
-        int getID() {
+        int Account::getID() {
             return ID;
         }
 
 };
-
-int main() {
-
-    Account test(01, 1000);
-
-    test.Deposit(500);
-    cout << "R" << test.getBalance() << "\n";
-
-    test.Withdraw(800);
-    cout << "R" << test.getBalance() << "\n";
-
-    cout << "ID Number: " << test.getID() << "\n";
-
-    return 0;
-}

@@ -26,6 +26,7 @@ public class BubbleSort {
         // Bubble Sort:
 
         // a simple sorting algorithm that works by repeatedly stepping through the list to be sorted
+        // finds the smallest out of place number in the list, and swaps it one place each step-through, repeating until that number is in the correct position
         // on each pass through the list, it compares pairs of adjacent items and swaps them if they are the wrong order
         // the passes through the list are repeated until no swaps are needed, which indicates that the list is sorted
         // name comes from how smaller elements 'bubble to the top' 

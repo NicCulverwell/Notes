@@ -27,12 +27,12 @@ public class Sets {
        System.out.println("tailSet(\"New York\"): " + treeSet.tailSet("New York")); // tailSet() creates a set of all elements after and inclusing the specific element
        
        
-       System.out.println("lower(\"P\"): " + treeSet.lower("P")); 
-       System.out.println("higher(\"P\"): " + treeSet.higher("P")); 
-       System.out.println("floor(\"P\"): " + treeSet.floor("P")); 
-       System.out.println("ceiling(\"P\"): " + treeSet.ceiling("P")); 
-       System.out.println("pollFirst(): " + treeSet.pollFirst()); // removes the first element 
-       System.out.println("pollLast(): " + treeSet.pollLast());  // removes the last element
+       System.out.println("lower(\"P\"): " + treeSet.lower("P")); // returns the highest value option, that comes before "P" will not return the value if it is equal to "P"
+       System.out.println("higher(\"P\"): " + treeSet.higher("P")); // returns the lowest value option, that comes after "P" will not return the value if it is equal to "P"
+       System.out.println("floor(\"P\"): " + treeSet.floor("P")); // returns the highest value option, that comes before "P"
+       System.out.println("ceiling(\"P\"): " + treeSet.ceiling("P")); // returns the lowest value option, that comes after "P"
+       System.out.println("pollFirst(): " + treeSet.pollFirst()); // retrieves and removes the first element 
+       System.out.println("pollLast(): " + treeSet.pollLast());  // retrieves and removes the last element
        System.out.println("New tree set: " + treeSet);
 
     }

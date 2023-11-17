@@ -7,7 +7,7 @@
         ; converting your file to an object to an executable must occur everytime you make changes to the file
 
 ; to create a new file
-    ; simply open TASM
+    ; "simply" open TASM
     ; edit file.asm (even though it doesnt exist)
     ; and then save the file in the editor as the name you wnat it to be
 
