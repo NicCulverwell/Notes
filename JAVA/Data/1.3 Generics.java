@@ -1,6 +1,6 @@
 package Data;
 
-public class Generics {
+class Generics {
     
     // Generics Allow you to create classes and methods that don't have a specified variables
         // When calling the class, you must indicate which variable you are instantiating
@@ -14,7 +14,7 @@ public class Generics {
 
         }
 
-    public static class Print<E> {
+    public static class Print<E> { // <E> means that any variable type can be placed there as a substitute for this blueprint
 
         E object;
 

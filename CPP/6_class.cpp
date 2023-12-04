@@ -1,10 +1,10 @@
 #include <iostream>
-#include <Account.h>
+#include "account.h"
 using namespace std;
 
 int main() {
 
-    Account test(01, 1000);
+    account test(01, 1000);
 
     test.Deposit(500);
     cout << "R" << test.getBalance() << "\n";

@@ -1,12 +1,6 @@
 #include <iostream>
 #include "Account.h"
 
-class Account {
-
-    int BALANCE;
-    int ID;
-
-
     // All Classes Require a Constructor Method:
         // Named the same as the Class Name (in this case Account)
         // Doesn't Neccessarily Need any data placed within it
@@ -16,10 +10,6 @@ class Account {
             // there are no set rules, you can edit and change these as much as you want
 
     public:
-        Account::Account(int ID, int BALANCE){
-            this->BALANCE = BALANCE;
-            this->ID = ID;
-        };
 
         // Secondary Methods:
         // Methods are split into various parts
@@ -41,21 +31,19 @@ class Account {
             // It does not change any data, nor does it create any new data
 
 
-        void Account::Deposit(int value) {
+        void account::Deposit(int value) {
             BALANCE += value;
         }
 
-        void Account::Withdraw(int withdraw) {
+        void account::Withdraw(int withdraw) {
             BALANCE -= withdraw;
         }
 
 
-        int Account::getBalance() {
+        int account::getBalance() {
             return BALANCE;
         }
 
-        int Account::getID() {
+        int account::getID() {
             return ID;
         }
-
-};

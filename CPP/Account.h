@@ -1,14 +1,14 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 
-class Account {
+class account {
 
     int BALANCE;
     int ID;
 
     public: 
 
-    class Account(int ID, int BALANCE) {
+    class account(int ID, int BALANCE) {
         this->BALANCE = BALANCE;
         this->ID = ID;
     };

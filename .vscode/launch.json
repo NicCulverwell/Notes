@@ -1,0 +1,108 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "LinkedLists2",
+      "request": "launch",
+      "mainClass": "Data.LinkedLists2",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "PriorityQueues",
+      "request": "launch",
+      "mainClass": "Data.PriorityQueues",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedLists",
+      "request": "launch",
+      "mainClass": "Data.LinkedLists",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedHashSets",
+      "request": "launch",
+      "mainClass": "Data.LinkedHashSets",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "Sets",
+      "request": "launch",
+      "mainClass": "Data.Sets",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "TreeSets",
+      "request": "launch",
+      "mainClass": "Data.TreeSets",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedHashMaps",
+      "request": "launch",
+      "mainClass": "Data.LinkedHashMaps",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "HashMaps",
+      "request": "launch",
+      "mainClass": "Data.HashMaps",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "TreeMaps",
+      "request": "launch",
+      "mainClass": "Data.TreeMaps",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "Maps",
+      "request": "launch",
+      "mainClass": "Data.Maps",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "Iterators",
+      "request": "launch",
+      "mainClass": "Data.Iterators",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "type": "java",
+      "name": "Collections",
+      "request": "launch",
+      "mainClass": "Data.Collections",
+      "projectName": "Notes_9f0f2a1e"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/User/Documents/Work/Coding/Notes/CPP",
+      "program": "c:/Users/User/Documents/Work/Coding/Notes/CPP/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
