@@ -10,16 +10,16 @@ class Methods {
         // A Method is a block of code, providing a specific function, that can be called multiple times using different variables
         // Very useful for reducing the amount of code used within your programs
 
-        Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
+        try(Scanner input = new Scanner(System.in)){
+            int num = input.nextInt();
 
-        System.out.println("Please enter a number: ");
+            System.out.println("Please enter a number: ");
 
-        String answer = calculator(num);
-        System.out.println("The number that you input was "+ answer);
+            String answer = calculator(num);
+            System.out.println("The number that you input was "+ answer);
 
-        input.close();
-
+            input.close();
+        }
     }
 
 
@@ -29,7 +29,7 @@ class Methods {
 
     public static String calculator(int num1){  // "int num1" will be the variable that you give the code to work with. multiple input can be given and are separated by comma
 
-        String answer1 = "";
+        String answer1;
 
         if(num1%2 == 0){
             answer1 = "even"; 

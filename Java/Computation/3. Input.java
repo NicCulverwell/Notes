@@ -12,16 +12,14 @@ class Input {
 
         System.out.println("Enter your name: ");
 
-        // create a input variable (in this case called input)
-        Scanner input = new Scanner(System.in);
-
-        String name = input.nextLine();
-
-        // nextLine is used for strings exclusively, each variable will have its own name | nextInt | nextDouble
-
-        System.out.println("your name is " + name);
-
-        input.close();
+        try ( // create a input variable (in this case called input)
+                Scanner input = new Scanner(System.in)) {
+            String name = input.nextLine();
+            
+            // nextLine is used for strings exclusively, each variable will have its own name | nextInt | nextDouble
+            
+            System.out.println("your name is " + name);
+        }
 
     }
 

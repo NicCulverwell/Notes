@@ -1,5 +1,6 @@
 package Computation;
 
+@SuppressWarnings("unused")
 class InnerClasses {
     
     public static void main(String [] args) {

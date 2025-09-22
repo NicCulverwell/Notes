@@ -1,0 +1,41 @@
+/*
+CSS (Cascading Style Sheets)
+Purpose: Controls the presentation and layout of a web page.
+In web design, CSS is used to style HTML elements—setting colors,
+fonts, spacing, alignment, and responsiveness.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f0f0f0;
+}
+
+/* Heading */
+h1 {
+    color: blue;
+}
+
+/* Paragraph */
+#intro {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Box styling */
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}

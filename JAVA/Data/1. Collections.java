@@ -47,7 +47,7 @@ class Collections {
 
 
  
-        Collection<String> collection2 = new ArrayList<String>(); 
+        Collection<String> collection2 = new ArrayList<>(); 
         collection2.add("Seattle"); 
         collection2.add("Portland"); 
         collection2.add("Los Angles"); 

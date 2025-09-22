@@ -1,26 +1,20 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
 
-class account {
-
-    int BALANCE;
+class Account {
+private:
     int ID;
+    int BALANCE;
 
-    public: 
+public:
+    // Constructor
+    Account(int id, int balance);
 
-    class account(int ID, int BALANCE) {
-        this->BALANCE = BALANCE;
-        this->ID = ID;
-    };
-
-    void Deposit(int value){};
-
-    void Withdraw(int withdraw) {};
-
-    int getBalance() {};
-
-    int getID() {};  
-
+    // Methods
+    void Deposit(int value);
+    void Withdraw(int value);
+    int getBalance();
+    int getID();
 };
 
 #endif

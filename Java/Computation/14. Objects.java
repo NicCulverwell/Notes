@@ -5,7 +5,7 @@ class Account {
     // Attributes of the Object
 
     // variables defined within the object, that are privatized so that they cannot be used anywhere else
-    private String accountNumber;
+    private final String accountNumber;
     private double balance;
 
     // Methods of the Object
@@ -49,6 +49,7 @@ class Account {
 }
 
 
+@SuppressWarnings("unused")
 class Objects {
     
     public static void main(String [] args) {

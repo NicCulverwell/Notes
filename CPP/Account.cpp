@@ -9,8 +9,6 @@
             // as such, you define these parameters within the bracket
             // there are no set rules, you can edit and change these as much as you want
 
-    public:
-
         // Secondary Methods:
         // Methods are split into various parts
             // first, you must define what the method returns
@@ -30,20 +28,25 @@
             // the getBalance method, when called, prints out the Balance variable
             // It does not change any data, nor does it create any new data
 
+        // Constructor
+        Account::Account(int id, int balance) {
+        ID = id;
+        BALANCE = balance;
+        }
 
-        void account::Deposit(int value) {
+        void Account::Deposit(int value) {
             BALANCE += value;
         }
 
-        void account::Withdraw(int withdraw) {
+        void Account::Withdraw(int withdraw) {
             BALANCE -= withdraw;
         }
 
 
-        int account::getBalance() {
+        int Account::getBalance() {
             return BALANCE;
         }
 
-        int account::getID() {
+        int Account::getID() {
             return ID;
         }
